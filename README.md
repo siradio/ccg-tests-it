@@ -16,8 +16,10 @@ mot de passe par PBKDF2-HMAC-SHA256 à 310 000 itérations, déchiffrement dans
 le navigateur. Le fichier publié ne contient aucun texte lisible — ni les
 questions, ni les noms des candidats.
 
-Chaque candidat a **son mot de passe**. La page de correction a le sien, qui
-n'est pas celui des tests.
+Les quatre tests partagent le même mot de passe. La page de correction
+emploie **le même mot de passe**, mais un **identifiant différent** : c'est
+lui, et lui seul, qui empêche un candidat d'ouvrir le corrigé avec ce qu'on
+lui a remis.
 
 **Les identifiants ne figurent pas dans ce dépôt.** Ils sont transmis
 séparément.
