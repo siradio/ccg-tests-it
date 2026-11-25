@@ -114,10 +114,14 @@ Les destinataires se changent en tête de chaque bloc candidat :
 
 ```js
 var CONFIG = {
-  destinataires: ["it@ccggroupe.com", "rh@ccggroupe.com"],
+  destinataires: ["<responsable IT>", "<RH>"],
   service: "formsubmit"
 };
 ```
+
+Le rapport part **en pièce jointe** — un `.json` qui se dépose directement
+dans la page des résultats — et aussi recopié dans le corps du message, au cas
+où la pièce jointe serait filtrée.
 
 Si l'envoi échoue, le candidat n'est pas bloqué : un bouton ouvre son logiciel
 de messagerie, pré-adressé, et le `.json` reste téléchargeable.
