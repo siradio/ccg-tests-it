@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CCG Flow &mdash; Tests de recrutement IT</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f0f4f1;color:#20332a;font:16px Arial,sans-serif}
+main{max-width:900px;margin:auto;padding:24px}
+header{background:#176338;color:white;padding:28px;border-radius:14px}
+h1{margin:12px 0;font-size:30px}
+h2{font-size:21px;color:#176338}
+section,fieldset{background:white;border:1px solid #d9e4dc;border-radius:12px;padding:20px;margin:16px 0}
+fieldset legend{font-weight:bold;padding:0 8px;max-width:100%}
+label.option{display:block;padding:12px;border:1px solid #dce5df;border-radius:8px;margin:8px 0;cursor:pointer}
+label.option:has(input:checked){background:#e2f4e8;border-color:#198b4b}
+input[type=radio]{accent-color:#198b4b;margin-right:10px}
+input:not([type=radio]){width:100%;padding:12px;border:1px solid #aebfb3;border-radius:6px;margin-top:6px;font:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+button{background:#176338;color:white;border:0;border-radius:8px;padding:13px 22px;font:bold 16px Arial;cursor:pointer}
+button:disabled{opacity:.5;cursor:default}
+button.sec{background:#fff;color:#176338;border:1.5px solid #cbdccf}
+#status{position:sticky;top:0;background:white;padding:14px;border:1px solid #d9e4dc;border-radius:8px;z-index:2;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+progress{accent-color:#198b4b;flex:1;min-width:90px}
+textarea{width:100%;padding:10px;font:inherit;border:1px solid #aebfb3;border-radius:6px}
+[hidden]{display:none!important}
+.avis{border-left:4px solid #198b4b;background:#eef7f1;padding:14px 16px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;line-height:1.55}
+.avis.ko{border-left-color:#c0392b;background:#fdeeec}
+.avis.att{border-left-color:#c8860d;background:#fdf6e6}
+.muet{color:#5c6f63;font-size:14px}
+@media print{button,#status,#intro{display:none!important}fieldset{break-inside:avoid}body{background:white}main{padding:0}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <strong>CCG FLOW &middot; RESSOURCES HUMAINES</strong>
+  <h1>Tests de recrutement IT</h1>
+</header>
+<section>
+  <p>L'acc&egrave;s se fait par <strong>lien personnel</strong>, transmis par le service
+     des ressources humaines, accompagn&eacute; d'un identifiant et d'un mot de passe.</p>
+  <p class="muet">Si vous &ecirc;tes candidat et n'avez pas re&ccedil;u votre lien,
+     contactez la personne qui vous a convoqu&eacute;.</p>
+</section>
+</main>
+</body>
+</html>
