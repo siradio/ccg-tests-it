@@ -46,7 +46,7 @@ comparant les libellés.
 
 1. Le candidat ouvre le lien, saisit l'identifiant qu'on lui a remis et le
    mot de passe.
-2. Il complète ses coordonnées et démarre. Le chronomètre de 40 minutes part et
+2. Il complète ses coordonnées et démarre. Le chronomètre de 30 minutes part et
    ne se met pas en pause.
 3. Il répond aux 30 questions, valide le QCM — confirmation demandée, avec le
    nombre de questions sans réponse.
