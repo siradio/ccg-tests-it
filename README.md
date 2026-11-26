@@ -1,4 +1,4 @@
-# Tests de recrutement IT — CCG Flow
+# Tests de recrutement IT — CCG
 
 **Un seul lien : https://siradio.github.io/ccg-tests-it/**
 
